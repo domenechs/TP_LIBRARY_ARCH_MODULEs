@@ -3,7 +3,8 @@ package fr.training.spring.library.domain;
 import fr.training.spring.library.domain.common.exception.ErrorCode;
 import fr.training.spring.library.domain.common.exception.ValidationException;
 import fr.training.spring.library.domain.ddd.DDD;
-import org.springframework.util.StringUtils;
+import org.apache.commons.lang3.StringUtils;
+
 
 import java.util.Objects;
 

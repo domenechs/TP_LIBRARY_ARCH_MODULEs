@@ -1,0 +1,12 @@
+idLibrary;adresseNumero;adresseRue;adresseVille;adresseCodePostal;directeurPrenom;directeurNom;type
+20;1;Moliere;PARIS;75000;Seb;Dom;ASSOCIATIVE
+21;2;Moliere;PARIS;75000;Seb;Dom;PUBLIQUE
+22;3;Moliere;PARIS;75000;Seb;Dom;NATIONAL
+23;4;Moliere;PARIS;75000;Seb;Dom;ASSOCIATIVE
+24;5;Moliere;PARIS;75000;Seb;Dom;PUBLIQUE
+25;6;Moliere;PARIS;75000;Seb;Dom;NATIONAL
+26;7;Moliere;PARIS;75000;Seb;Dom;ASSOCIATIVE
+27;8;Moliere;PARIS;75000;Seb;Dom;PUBLIQUE
+28;9;Moliere;PARIS;75000;Seb;Dom;NATIONAL
+29;10;Moliere;PARIS;75000;Seb;Dom;ASSOCIATIVE
+30;11;Moliere;PARIS;75000;Seb;Dom;PUBLIQUE

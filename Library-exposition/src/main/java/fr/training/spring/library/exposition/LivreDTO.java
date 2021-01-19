@@ -28,6 +28,9 @@ public class LivreDTO {
         this.genre = genre;
     }
 
+    public LivreDTO() {
+    }
+
     public long getId() {
         return id;
     }

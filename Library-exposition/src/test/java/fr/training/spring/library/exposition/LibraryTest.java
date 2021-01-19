@@ -93,11 +93,12 @@ public class LibraryTest {
     @Test
     @DisplayName("suppression d'une library via son ID")
     public void test_Delete_By_ID() {
+        ResponseEntity<String> response = restTemplate.postForEntity("/api/libraries/create", NATIONAL_LIBRARY_MONTREUIL, String.class);
+        String idLibrary = response.getBody();
+        restTemplate.delete("/api/deletelibrary/"+idLibrary);
 
-        restTemplate.delete("/api/deletelibrary/2");
-
-        ResponseEntity<String> response = restTemplate.getForEntity("/api/detail/2", String.class);
-        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.NOT_FOUND);
+        ResponseEntity<String> response2 = restTemplate.getForEntity("/api/detail/"+idLibrary, String.class);
+        assertThat(response2.getStatusCode()).isEqualTo(HttpStatus.NOT_FOUND);
 
     }
 

@@ -37,6 +37,8 @@ public class LibraryDTO {
         this.livresDTO = livresDTO;
     }
 
+    public LibraryDTO() {
+    }
 
     public String getId() {
         return id;

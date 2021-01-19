@@ -30,6 +30,9 @@ public class AdresseDTO {
         this.ville = ville;
     }
 
+    public AdresseDTO() {
+    }
+
     public int getNumero() {
         return numero;
     }

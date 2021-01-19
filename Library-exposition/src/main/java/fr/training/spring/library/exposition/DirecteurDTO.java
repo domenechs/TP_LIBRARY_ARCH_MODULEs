@@ -22,6 +22,9 @@ public class DirecteurDTO {
         this.nom = nom;
     }
 
+    public DirecteurDTO() {
+    }
+
     public String getPrenom() {
         return prenom;
     }
