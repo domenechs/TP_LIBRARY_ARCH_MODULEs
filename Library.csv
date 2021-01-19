@@ -1,0 +1,7 @@
+Id library;numero;rue;ville;code postal;prenom directeur;nom directeur,type library
+1;1;Moliere;PARIS;75001;Gilles;DURAND;ASSOCIATIVE
+2;2;De Gaulles;PARIS;75002;Gilles;DURAND;NATIONAL
+3;3;Bourrelier;PARIS;75003;Marcel;DUPOND;PUBLIQUE
+4;4;Resistance;PARIS;75004;Louis;GRAND;SCOLAIRE
+5;5;Foch;PARIS;75005;Louis;GRAND;UNIVERSITAIRE
+6;6;Zerktouni;PARIS;75006;La Tulipe;FANFAN;ASSOCIATIVE
